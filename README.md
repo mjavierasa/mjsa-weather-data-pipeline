@@ -261,5 +261,4 @@ python3 src/main.py
 Ingeniera Civil Industrial  
 Santiago – La Serena, Chile  
 m.javiera.sepulveda@gmail.com  
-[linkedin.com/in/mjavierasa](https://www.linkedin.com/in/mjavierasa)  
-+56 9 99719130
+[linkedin.com/in/mjavierasa](https://www.linkedin.com/in/mjavierasa)
