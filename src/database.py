@@ -1,13 +1,13 @@
 """
-Archivo Database:conexión y manejo de la base de datos
+Módulo database: conexión y manejo de la base de datos.
 
 Incluye funciones para:
-- Establecer conexión con el motor de base de datos SQLite.
-- Crear tablas dinámicamente a partir del DataFrame de entrada.
+- Establecer conexión con el motor de base de datos SQLite
+- Crear tablas dinámicamente a partir de un DataFrame de entrada
 
 Supuestos:
-- Se usa una base SQLite local.
-- Se define una clave primaria 'unique_key' para asegurar idempotencia.
+- Se usa una base SQLite local
+- Se define una clave primaria 'unique_key' para asegurar idempotencia
 """
 
 from sqlalchemy import create_engine, text

@@ -2,14 +2,14 @@
 Script principal : Weather Data Pipeline.
 
 Coordina la ejecución completa del flujo ETL:
-1. Extracción de datos meteorológicos desde la API pública del NWS (weather.gov).
-2. Transformación y almacenamiento en una base SQLite local.
-3. Validaciones y análisis sobre los datos persistidos.
+1. Extracción de datos meteorológicos desde la API pública del NWS (weather.gov)
+2. Transformación y almacenamiento en una base SQLite local
+3. Validaciones y análisis sobre los datos persistidos
 
 Supuestos:
-- El entorno virtual (venv) está activado.
-- 'config.py' contiene los parámetros y estaciones correctas.
-- Las dependencias están instaladas desde 'requirements.txt'.
+- El entorno virtual (venv) está activado
+- 'config.py' contiene los parámetros y estaciones correctas
+- Las dependencias están instaladas desde 'requirements.txt'
 """
 
 from pipeline import run_pipeline

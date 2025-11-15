@@ -4,7 +4,7 @@ en la API pública del National Weather Service (weather.gov).
 
 Uso principal:
 Permite listar y validar los códigos de estación (`stationIdentifier`) 
-que pueden utilizarse en el pipeline ETL antes de definirlos en `config.py`.
+que pueden utilizarse en el pipeline ETL antes de definirlos en `config.py`
 
 Genera un archivo CSV con las estaciones obtenidas, incluyendo:
 - ID de estación

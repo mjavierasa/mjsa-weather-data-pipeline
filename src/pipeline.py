@@ -2,14 +2,14 @@
 Módulo principal del pipeline ETL para obtención de datos meteorológicos.
 
 Flujo:
-1. Extrae observaciones desde la API pública del National Weather Service (weather.gov).
-2. Transforma las respuestas en un DataFrame estandarizado.
-3. Carga los registros en una base SQLite con control de duplicados (idempotencia).
+1. Extrae observaciones desde la API pública del National Weather Service (weather.gov)
+2. Transforma las respuestas en un DataFrame estandarizado
+3. Carga los registros en una base SQLite con control de duplicados (idempotencia)
 
 Supuestos:
-- Los códigos de estación definidos en config.STATIONS existen en el endpoint del NWS.
-- La API devuelve observaciones en formato GeoJSON válido.
-- Los datos se procesan en UTC y se almacenan en formato ISO 8601.
+- Los códigos de estación definidos en config.STATIONS existen en el endpoint del NWS
+- La API devuelve observaciones en formato GeoJSON válido
+- Los datos se procesan en UTC y se almacenan en formato ISO 8601
 """
 
 from datetime import datetime, timedelta, timezone
@@ -22,8 +22,8 @@ from config import BASE_URL, STATIONS, USER_AGENT, API_TIMEOUT, DB_PATH
 
 def fetch_station_data(station_id):
     """
-    Obtiene los últimos 21 días de observaciones de una estación del NWS.
-    Retorna una lista de registros normalizados para carga en base de datos.
+    Obtiene los últimos 21 días de observaciones de una estación del NWS
+    y devuelve una lista de registros normalizados para carga en base de datos.
     """
     # Calcular fecha de inicio (últimos 21 días en formato ISO 8601 UTC)
     start_date = (datetime.now(timezone.utc) - timedelta(days=21)).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -76,12 +76,7 @@ def fetch_station_data(station_id):
 
 
 def run_pipeline():
-    """
-    Ejecuta el flujo completo ETL:
-    1. Extrae datos de las estaciones definidas.
-    2. Los almacena en SQLite de forma idempotente.
-    3. Ejecuta consultas analíticas sobre los resultados.
-    """
+    """Orquesta el flujo ETL completo y ejecuta el análisis posterior."""
     print("Inicio del pipeline de datos meteorológicos.\n")
 
     all_data = []

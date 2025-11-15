@@ -5,14 +5,14 @@ Ejecuta verificaciones preliminares sobre la base de datos SQLite
 para validar la coherencia y completitud de los datos antes de realizar análisis.
 
 Incluye:
-1. Temperatura promedio de los últimos 7 días por estación.
-2. Total de registros almacenados.
-3. Última fecha de observación registrada.
+1. Temperatura promedio de los últimos 7 días por estación
+2. Total de registros almacenados
+3. Última fecha de observación registrada
 
 Supuestos:
-- La base de datos local es `weather_data.db`.
-- La tabla `weather_data` contiene los campos esperados del pipeline.
-- Las fechas se almacenan en formato ISO 8601 (UTC).
+- La base de datos local es `weather_data.db`
+- La tabla `weather_data` contiene los campos esperados del pipeline
+- Las fechas se almacenan en formato ISO 8601 (UTC)
 """
 
 from sqlalchemy import text

@@ -1,18 +1,18 @@
 """
-Archivo de configuración: Proyecto Weather Data Pipeline.
+Configuración global del proyecto Weather Data Pipeline.
 
-Define las variables globales del pipeline, incluyendo:
-- Rutas de la base de datos.
-- Parámetros de la API pública del National Weather Service (weather.gov).
-- Identificadores de las cinco estaciones seleccionadas para análisis.
-- Parámetros de conexión y control de ejecución.
+Define:
+- Ruta de la base de datos local.
+- Parámetros de la API pública del National Weather Service (weather.gov)
+- Estaciones seleccionadas para el análisis
+- Parámetros de control de ejecución (tiempos, reintentos, formato de fechas)
 
 Supuestos:
-1. Se utiliza la API pública documentada en: https://www.weather.gov/documentation/services-web-api
-2. Las estaciones incluidas en 'selected_stations.csv' fueron previamente seleccionadas 
-   desde 'stations_sample.csv' mediante un muestreo aleatorio reproducible.
-3. El sistema se ejecuta en horario UTC y utiliza formato ISO 8601 para consistencia temporal.
-
+1. Se utiliza la API pública documentada en:
+   https://www.weather.gov/documentation/services-web-api
+2. 'selected_stations.csv' contiene las estaciones seleccionadas mediante
+   un muestreo aleatorio reproducible a partir de 'stations_sample.csv'
+3. El sistema opera en horario UTC y utiliza formato ISO 8601 para consistencia temporal
 """
 
 import pandas as pd
@@ -36,8 +36,8 @@ else:
     print("Advertencia: no se encontró 'selected_stations.csv'. El pipeline se ejecutará sin estaciones definidas.")
 
 # Parámetros adicionales del pipeline
-API_TIMEOUT = 60              # Tiempo máximo de espera para solicitudes HTTP (segundos)
-FETCH_INTERVAL = 3600         # Intervalo de actualización (segundos) — reservado para automatizaciones
-LOG_FILE = "weather_data.log" # Archivo de registro (pendiente de integración con módulo logging)
-MAX_RETRIES = 3               # Número máximo de reintentos por estación
+API_TIMEOUT = 60                     # Tiempo máximo de espera para solicitudes HTTP (segundos)
+FETCH_INTERVAL = 3600                # Intervalo de actualización (segundos) — reservado para automatizaciones
+LOG_FILE = "weather_data.log"        # Archivo de registro (pendiente de integración con módulo logging)
+MAX_RETRIES = 3                      # Número máximo de reintentos por estación
 DATE_FORMAT = "%Y-%m-%dT%H:%M:%S%z"  # Formato ISO 8601

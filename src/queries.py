@@ -3,14 +3,14 @@ Queries: Módulo de consultas del Weather Data Pipeline.
 
 Ejecuta los principales indicadores solicitados sobre la base de datos local `weather_data.db`:
 
-1. Temperatura media observada de la última semana (lunes a domingo).
-2. Máximo cambio de velocidad del viento entre observaciones consecutivas (últimos 7 días).
-3. Mínima y máxima humedad por día.
-4. Variación diaria promedio de temperatura y humedad respecto al día anterior.
+1. Temperatura media observada de la última semana (lunes a domingo)
+2. Máximo cambio de velocidad del viento entre observaciones consecutivas (últimos 7 días)
+3. Mínima y máxima humedad por día
+4. Variación diaria promedio de temperatura y humedad respecto al día anterior
 
 Supuestos:
-- La tabla `weather_data` existe y contiene datos válidos obtenidos desde la API del NWS.
-- Las columnas mantienen la estructura generada por el pipeline principal.
+- La tabla `weather_data` existe y contiene datos válidos obtenidos desde la API del NWS
+- Las columnas mantienen la estructura generada por el pipeline principal
 """
 
 import sqlite3
