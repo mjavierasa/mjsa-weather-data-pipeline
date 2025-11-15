@@ -1,0 +1,12 @@
+# Entorno virtual
+venv/
+
+# Base de datos local
+*.db
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Archivos del sistema macOS
+.DS_Store

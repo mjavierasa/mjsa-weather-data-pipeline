@@ -1,0 +1,101 @@
+ID_estacion,Nombre_estacion,latitud,longitud,zona_horaria,elevacion_metros
+0007W,Montford Middle,,,America/New_York,49.0728
+000PG,Southside Road,,,America/Los_Angeles,129.2352
+000SE,SCE South Hills Park,,,America/Los_Angeles,242.9256
+001AS,Poloa_Wx,,,Pacific/Pago_Pago,142.9512
+001BH,Tilford,,,America/Denver,1207.3128
+001CE,83 Crosby,,,America/Chicago,14.0208
+001HE,MECO Kealaloloa Ridge,,,Pacific/Honolulu,571.1952
+001HI,Kula Ag,,,Pacific/Honolulu,964.0824
+001ID,E2T13,,,America/Boise,1458.7728
+001MD,Clarksville 4 NNE,,,America/New_York,110.0328
+001NH,Lincoln Exit 33,,,America/New_York,273.1008
+001NW,Grizzly Gulch,,,America/Denver,1281.9888
+001SE,SCE Glen Way,,,America/Los_Angeles,409.0416
+002AS,Aasu_Wx,,,Pacific/Pago_Pago,358.14
+002BH,Tinton,,,America/Denver,1668.78
+002CE,62 Baytown,,,America/Chicago,9.7536
+002HC,Beltway 8 at Ship Channel,,,America/Chicago,7.9248
+002HE,MECO Lahainaluna Rd,,,Pacific/Honolulu,153.924
+002HI,Park HQ,,,Pacific/Honolulu,2114.0928
+002ID,E2T15,,,America/Boise,1634.3376
+002MD,Frostburg 1 NNW,,,America/New_York,690.9816
+002NH,Lincoln Exit 34A,,,America/New_York,448.9704
+002NW,Hwy 12,,,America/Denver,1287.1704
+002PG,Reservation Road,,,America/Los_Angeles,25.2984
+002SE,SCE Native Ave,,,America/Los_Angeles,196.9008
+003AS,Vaipito_Wx,,,Pacific/Pago_Pago,92.0496
+003BH,Legion Lake,,,America/Denver,1496.8728
+003HE,MECO Kula 2,,,Pacific/Honolulu,706.2216
+003HI,Summit,,,Pacific/Honolulu,2987.04
+003ID,W2T26,,,America/Boise,1488.6432
+003MD,Keedysville 2 NW,,,America/New_York,148.7424
+003NH,Epping Rt.101,,,America/New_York,54.864
+003NW,Birdseye Rd,,,America/Denver,1357.5792
+003PG,Loma Chiquita West,,,America/Los_Angeles,794.9184
+003SE,SCE Fullerton Rd,,,America/Los_Angeles,181.356
+0043W,FSU WeatherSTEM,,,America/New_York,28.0416
+0049W,Madison County High School,,,America/New_York,53.0352
+004AS,Afono_Wx,,,Pacific/Pago_Pago,84.1248
+004BH,Maverick Junction,,,America/Denver,979.6272
+004CE,100 Channelview N,,,America/Chicago,10.9728
+004HC,3010 SH 288 at MacGregor,,,America/Chicago,13.1064
+004HE,MECO Kaanapali,,,Pacific/Honolulu,118.5672
+004HI,Nahuku,,,Pacific/Honolulu,1202.1312
+004ID,W2T31,,,America/Boise,1452.372
+004MD,Easton 4 ESE,,,America/New_York,6.096
+004NH,Hooksett,,,America/New_York,85.9536
+004NW,McClellan Creek Rd,,,America/Denver,1577.6448
+004PG,Weller Road,,,America/Los_Angeles,750.4176
+004SE,SCE N Lyman Ave,,,America/Los_Angeles,213.0552
+0054W,FSU Coastal and Marine Lab,,,America/New_York,3.9624
+005AS,Aunuu_Wx,,,Pacific/Pago_Pago,34.1376
+005BH,Deadwood Lodge,,,America/Denver,1520.6472
+005CE,82 Deer Park,,,America/Chicago,8.2296
+005HE,MECO Maalaea,,,Pacific/Honolulu,0.9144
+005HI,IPIF,,,Pacific/Honolulu,111.8616
+005ID,W3T2,,,America/Boise,1474.6224
+005MD,Ridgely,,,America/New_York,20.1168
+005NH,Lancaster Rt 3,,,America/New_York,438.912
+005NW,South Hills,,,America/Denver,1542.5928
+005PG,Ridgewood Drive,,,America/Los_Angeles,52.1208
+005SE,SCE Alwick Pl,,,America/Los_Angeles,167.0304
+0063W,PAC Academy,,,America/New_York,10.0584
+006BH,Higgins Gulch,,,America/Denver,1143.3048
+006CE,47 Bayport,,,America/Chicago,5.1816
+006HC,3060 IH 10 at Normandy,,,America/Chicago,10.9728
+006HE,MECO Waipoli Rd,,,Pacific/Honolulu,1079.2968
+006HI,Spencer,,,Pacific/Honolulu,469.0872
+006ID,W3T6,,,America/Boise,1480.1088
+006MD,College Park 2 N,,,America/New_York,28.956
+006NH,Warner I-89,,,America/New_York,142.9512
+006NW,I-15,,,America/Denver,1282.9032
+006PG,Vacaville Tower,,,America/Los_Angeles,201.4728
+006SE,SCE Cuesta Verde,,,America/Los_Angeles,53.6448
+007BH,Old Hill City Rd,,,America/Denver,1369.1616
+007CE,58 Sylvan Beach,,,America/Chicago,3.6576
+007HC,3070 SH 288 at Loop 610,,,America/Chicago,17.0688
+007HE,MECO Launiupoko,,,Pacific/Honolulu,223.4184
+007HI,Laupahoehoe,,,Pacific/Honolulu,1150.9248
+007ID,W2T17,,,America/Boise,952.5
+007MD,Wye Mills 4 WSW,,,America/New_York,4.8768
+007NH,Bow,,,America/New_York,110.9472
+007NW,Sawmill Rd,,,America/Denver,1515.1608
+007PG,Willow Canyon Drive,,,America/Los_Angeles,957.6816
+007SE,SCE Dennis Reservoir,,,America/Los_Angeles,116.1288
+0081W,University of Miami,,,America/New_York,10.9728
+0084W,The Arboretum at Penn State,,,America/New_York,359.9688
+008BH,5719 HWY 9,,,America/Denver,1993.6968
+008CE,59 Shell Point,,,America/Chicago,3.048
+008HE,MECO Olowalu,,,Pacific/Honolulu,43.8912
+008HI,Palamanui,,,Pacific/Honolulu,263.9568
+008ID,CP3T6,,,America/Boise,1003.0968
+008MD,Baltimore 3 NNE,,,America/New_York,68.58
+008NH,Nashua FEE Exit 2,,,America/New_York,81.0768
+008NW,Mt Hwy 87,,,America/Denver,1891.284
+008PG,El Camino Real,,,America/Los_Angeles,98.7552
+008SE,SCE Horsethief Canyon,,,America/Los_Angeles,997.0008
+0097W,Wakulla High School,,,America/New_York,14.0208
+009BH,Crook City Rd,,,America/Denver,1128.3696
+009CE,57 Morgan's Point,,,America/Chicago,3.048
+009HE,HELCO Hulukupuna St,,,Pacific/Honolulu,86.868
