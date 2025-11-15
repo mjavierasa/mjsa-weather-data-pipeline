@@ -255,6 +255,16 @@ python3 src/main.py
 
 ---
 
+## Entregables incluidos
+
+- Código fuente completo en la carpeta `src/`.
+- Scripts de base de datos implementados en `database.py` (creación de tablas vía SQLAlchemy).
+- Archivos de configuración e instrucciones de ejecución:
+  - `requirements.txt`
+  - `README.md`
+  - `selected_stations.csv` / `stations_sample.csv`
+---
+
 # Autoría
 
 **María Javiera Sepúlveda Álamos**  
